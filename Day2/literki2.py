@@ -22,3 +22,11 @@ print(kod)
 # odwrotnie do funkcji ord zamienia wynik ASCII na literkę
 print(chr(kod+4))
 
+# błąd poza zakresem out of range
+s = 'kotek'
+#s[5]
+#s[-6]
+#s[0:4:2]- bierze co 2 litere z zakresu 0:4
+#s[::] - drukuje cały zakres od początku do końca z krokiem jeden
+#s[::-1] - od końca do początku co jeden
+print(s)
