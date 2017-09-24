@@ -1,8 +1,6 @@
 #slicowanie
 slowo = 'czarymary'
 
-ostatnia = slowo[-1]
-print(ostatnia)
 
 #ostatnia litera wydrukowana z indeksu 4
 print(slowo[2:5])
